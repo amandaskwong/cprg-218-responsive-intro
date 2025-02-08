@@ -29,6 +29,11 @@ nav {
     background-color: #eeeeee;
 }
 
+#desktop {
+    background-color: orange;
+    padding: 1em;
+}
+
 footer {
     grid-area: bottom;
     background-color: green;
@@ -43,5 +48,9 @@ footer {
         'right'
         'bottom';
         grid-template-columns: 1fr;
+    }
+
+    #desktop {
+        display: none;
     }
 }
