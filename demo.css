@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: blueviolet;
+    color: white;
+}
+
+@media screen and (max-width: 800px) {
+    /* pages smaller than 800px but larger than 400px */
+    body {
+        background-color: hotpink
+    };
+}
+
+@media screen and (max-width: 400px) {
+    /* pages smaller than 400px */
+    body {
+        background-color: orange;
+    }
+}
